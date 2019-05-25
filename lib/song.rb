@@ -16,11 +16,11 @@ def initialize(name, artist, genre)
 end
 
 def self.count
-
+  @@count
 end
 
 def self.artists
-
+  @@artist.unique
 end
 
 def self.artist_count
